@@ -1,31 +1,41 @@
 body {
-  background-color: hsl(208, 63%, 12%)! important;
+	background-color: hsl(208, 63%, 12%) !important;
 }
+
+#root {
+	display: flex;
+	justify-content: center;
+}
+
+.row > div:first-of-type {
+	display: flex;
+	justify-content: center;
+	align-items: start;
+}
+
 .error {
-  background-color: #b7322c;
-  padding: 1rem;
-  color: white;
-  font-size: 18px;
-  text-transform: uppercase;
-  font-weight: bold;
-  text-align: center;
+	background-color: #b7322c;
+	padding: 1rem;
+	color: white;
+	font-size: 18px;
+	text-transform: uppercase;
+	font-weight: bold;
+	text-align: center;
 }
-
-
 
 .resultado {
-  color: white;
+	color: white;
 }
 .resultado h2 {
-  font-weight: bold;
-  color: white;
+	font-weight: bold;
+	color: white;
 }
 .resultado p {
-  font-size: 18px!important;
+	font-size: 18px !important;
 }
 .resultado p span {
-  font-weight: bold;
+	font-weight: bold;
 }
-p.precio{
-  font-size: 30px!important;
+p.precio {
+	font-size: 30px !important;
 }
